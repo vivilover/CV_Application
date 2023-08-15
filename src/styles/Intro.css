@@ -1,0 +1,7 @@
+.Intro {
+  z-index: 5;
+  /* height: 38vh; */
+  border-bottom-right-radius: 4rem;
+  background-color: #ADAF78;
+  color: #47423D;;
+}

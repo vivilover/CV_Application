@@ -1,0 +1,49 @@
+
+.ImageSection {
+  position: absolute;
+  right: 0;
+  top: 0;
+  background-color: #CABA89;
+  border-bottom-left-radius: 5rem;
+}
+
+.ImageSection img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  position: absolute;
+  border-radius: 60%;
+  left: 18%;
+  top: 13%;
+  border: 4px solid #D6C68F;
+  border-radius: 3rem;
+}
+
+.add-icon {
+  width: 140px;
+  height: 140px;
+  position: absolute;
+  border-radius: 60%;
+  left: 18%;
+  top: 13%;
+  border-radius: 3rem;
+  display: none;
+  cursor: pointer;
+}
+.uploadInstruction {
+  display: none;
+  position: absolute;
+  left: 22%;
+  top: 87%;
+}
+.ImageSection img:hover + .uploadInstruction {
+  display: block;
+}
+
+.ImageSection img:hover ~ .add-icon {
+  display: block;
+}
+
+.ImageSection input {
+  display: none;
+}

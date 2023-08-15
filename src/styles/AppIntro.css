@@ -1,0 +1,31 @@
+.AppIntro {
+  height: 100%;
+}
+
+span {
+  position: relative;
+}
+
+.underline-1::before {
+  content: "";
+  position: absolute;
+  left: -12%;
+  top: 90%;
+  background: rgba(238,111,87,0.5);
+  width: 42px;
+  height: 5px;
+  transform: skew(-40deg) translateX(0%);
+}
+
+.underline-2::before {
+  content: "";
+  position: absolute;
+  left: -2%;
+  top: 90%;
+  background: rgba(238,111,87,0.5);
+  width: 180px;
+  height: 5px;
+  transform: skew(-40deg) translateX(0%);
+}
+
+

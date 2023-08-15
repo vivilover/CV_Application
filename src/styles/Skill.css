@@ -1,0 +1,43 @@
+progress {
+  border: 0;
+  height: 0.5rem;
+  border-radius: 0px;
+}
+progress::-webkit-progress-bar {
+  border: 0;
+  height: 0.5rem;
+  border-radius: 0px;
+  background-color: #CAD5BF;
+}
+progress::-webkit-progress-value {
+  border: 0;
+  height: 0.5rem;
+  border-radius: 0px;
+  background-color: #B4B17B;
+}
+progress::-moz-progress-bar {
+  border: 0;
+  height: 0.5rem;
+  border-radius: 0px;
+  background-color: black;
+}
+
+.skillName {
+  color: #CAD5BF;
+  height: 0.9rem;
+}
+
+.modal {
+  top: -10%;
+  width: 105%;
+  position: relative;
+  border-radius: 1rem;
+}
+
+.display-block {
+  display: inline-block;
+}
+
+.display-none {
+  display: none;
+}
