@@ -1,7 +1,7 @@
 import Achievement from './Achievement.jsx';
 import '../styles/Summary.css';
 import { useRef } from 'react';
-import ContentEditable from 'react-ContentEditable';
+import ContentEditable from 'react-contenteditable';
 
 export default function Summary() {
   const text = useRef('Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis vel euismod erat, nec vestibulum justo. Maecenas nulla purus, commodo vel erat id, vehicula imperdiet ipsum. Etiam laoreet odio at faucibus posuere. Nunc scelerisque rhoncus est non tempor.');

@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import ContentEditable from 'react-ContentEditable';
+import ContentEditable from 'react-contenteditable';
 
 export default function Achievement() {
   const desc1 = useRef('California Cooperate');

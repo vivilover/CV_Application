@@ -1,6 +1,6 @@
 import '../styles/Skill.css';
 import { useRef, useState } from 'react';
-import ContentEditable from 'react-ContentEditable';
+import ContentEditable from 'react-contenteditable';
 
 function SkillModal({show, handleClick, parentCallback}) {
   const showHideClassName = show ? "display-block" : "display-none";

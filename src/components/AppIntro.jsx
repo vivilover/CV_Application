@@ -1,6 +1,6 @@
 import React, { useRef, useState, useCallback, useEffect } from 'react'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faSeedling, faFire, faFileDownload, faPrint, faFeather, faCircleQuestion, faListAlt } from '@fortawesome/free-solid-svg-icons'
+import { faSeedling, faFire, faFileDownload, faPrint, faFeather, faListAlt } from '@fortawesome/free-solid-svg-icons'
 import { faGithub, faDribbble } from '@fortawesome/free-brands-svg-icons';
 import Button from './Button.jsx';
 import '../styles/AppIntro.css';

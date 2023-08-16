@@ -1,6 +1,7 @@
 import '../styles/Contact.css';
 import { useRef } from 'react';
-import ContentEditable from 'react-ContentEditable';
+import ContentEditable from 'react-contenteditable';
+// import { ContentEditable } from '../../node_modules/react-ContentEditable/lib/react-contenteditable.js';
 
 export default function Contact({ icon, title, content }) {
   const text = useRef(content);

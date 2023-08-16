@@ -1,6 +1,6 @@
 import '../styles/School.css';
 import { useRef } from 'react';
-import ContentEditable from 'react-ContentEditable';
+import ContentEditable from 'react-contenteditable';
 
 export default function School() {
   const time = useRef('Aug 2019 - May 2023');
